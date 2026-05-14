@@ -24,7 +24,6 @@ public class killBox : MonoBehaviour
     void KillPlayer()
     {
         Debug.Log("Player touched the Danger Box! Restarting level...");
-        // Instantly reload the current level
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

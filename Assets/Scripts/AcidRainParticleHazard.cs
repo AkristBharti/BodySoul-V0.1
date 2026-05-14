@@ -16,7 +16,6 @@ public class AcidRainParticleHazard : MonoBehaviour
 
     void KillPlayer()
     {
-        // Restart the current level
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
