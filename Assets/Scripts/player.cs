@@ -8,12 +8,14 @@ public class player : MonoBehaviour
     public float jumpHeight = 3f;   // How high the player jumps
 
     private Rigidbody2D rb;
+    Animator animator;
     private float horizontalInput;   // Stores the left/right key presses
     public bool isGrounded = false; // Tracks if we are on the ground
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -21,6 +23,11 @@ public class player : MonoBehaviour
         // 1. Listen for Left/Right arrows or A/D keys
         // Returns -1 for left, 1 for right, and 0 for nothing
         horizontalInput = Input.GetAxisRaw("Horizontal");
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", horizontalInput != 0);
+            animator.SetBool("isJumping", rb.velocity.y > 0.1f);
+        }
 
         // 2. Listen for Jump (Spacebar) ONLY if we are on the ground
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
