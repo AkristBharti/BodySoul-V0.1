@@ -20,6 +20,7 @@ public class SoulController : MonoBehaviour
     private Rigidbody2D soulRb;
     private player playerMovementScript;
     private Rigidbody2D playerRb;
+    private Animator playerAnimator;
 
     private bool isDetached = false;
     private bool isReturning = false;
@@ -38,6 +39,7 @@ public class SoulController : MonoBehaviour
         soulRb = GetComponent<Rigidbody2D>();
         playerMovementScript = player.GetComponent<player>();
         playerRb = player.GetComponent<Rigidbody2D>();
+        playerAnimator = player.GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -87,6 +89,11 @@ public class SoulController : MonoBehaviour
                 transform.position = player.transform.position;
                 playerMovementScript.enabled = true;
 
+                if (playerAnimator != null)
+                {
+                    playerAnimator.SetTrigger("soulBack");
+                }
+
                 foreach (MovableGround block in liftedBlocks) { block.StartDropSequence(); }
                 liftedBlocks.Clear();
 
@@ -109,6 +116,11 @@ public class SoulController : MonoBehaviour
             popOutTarget = new Vector2(player.transform.position.x, player.transform.position.y) + popOutOffset;
             playerMovementScript.enabled = false;
             playerRb.velocity = Vector2.zero;
+
+            if (playerAnimator != null)
+            {
+                playerAnimator.SetTrigger("soulOut");
+            }
         }
         else
         {
