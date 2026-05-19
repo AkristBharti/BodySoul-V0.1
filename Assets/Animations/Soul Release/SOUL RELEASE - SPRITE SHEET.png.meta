@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 2336e7336bea3a746b2606d6cb16f368
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 3922
+        width: 112
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f71fe0a99ec064991e7f7f06b25be6
+      internalID: 1582674602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 3972
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0e88faa18e9d745943903746915456
+      internalID: -85903891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3902
+        width: 220
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c81864cc5394d42a6f91a2b4888105
+      internalID: -723676000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3640
+        width: 109
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643587472cdf6ad4f88c531e3766054b
+      internalID: -1417104956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3661
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e960694b0d17a4e8d236a7eceb05d2
+      internalID: -1536229747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 3638
+        width: 92
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c28ae4804e89cf47a554d8a3c2516d8
+      internalID: 2096485604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 3578
+        width: 157
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc0432261be0d248a1d4d4e95246bc4
+      internalID: 737524982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3157
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c3b807477a414fb82b3cc73189006
+      internalID: -1867212807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3161
+        width: 100
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f48b6b76258048ac07bfdd4fd24bb
+      internalID: -1328550934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3161
+        width: 91
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8708876f1ab64a85bcf0b488948af
+      internalID: 426717259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2793
+        width: 73
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8400a21d0b1e5d94db5deaef0084634b
+      internalID: -2111550399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2793
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7298123b1f98e408bc4cc6174fc034
+      internalID: -329441142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2789
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b90c1264b9d2540b87ccd3a4fe16b4
+      internalID: -831351523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2402
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14e1d6ea2cd014a97635685c7575dd
+      internalID: -1851146158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 2402
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe359a6379e274c9c5e988b6f77904
+      internalID: -915619235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 2374
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1eb54ba1d1b524aa45959aaa7a5ba3
+      internalID: 1799354603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1963
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d73e1d5135aa2488bb96baa3ccb769
+      internalID: -1974343843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1960
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de04dd9ece9d413468bf196db4f4d197
+      internalID: 1664280112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1953
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1641c4018747a564bbe553537a76b5ad
+      internalID: -1274286459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_19
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1571
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b487428606b6443ae59c89151ea48c
+      internalID: 1187154305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1571
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb72a56fea81444b8466fd82f01c0d9
+      internalID: -1637394725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1559
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cc7d15f9974ce4b93f7fb7b1933131
+      internalID: 427547219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1183
+        width: 83
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afb226008fa9bb43a37cfc6445244eb
+      internalID: 2137923723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1183
+        width: 91
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf37107e76253c45884f07ef66d1f91
+      internalID: -504156806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1187
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd8ea89c7f8b7d468cd7468fe7ac82f
+      internalID: -2080782139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1166
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefdd745324e9134a9b63d161c96ec16
+      internalID: 717718954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_26
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 830
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ae3dcc5a34cb468d7a4df5827b0cf
+      internalID: -2039466423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_27
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 838
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be32bc2dbabb443ad190ba5382d7a9
+      internalID: -1496447953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_28
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 863
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8c37ff0f25634ead2bbbb211e7a6b
+      internalID: 2097416894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_29
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 838
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b18ab0df0a44c84589eed2e052c1400
+      internalID: 1786183891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_30
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 866
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368287ef6eecc6343808da4c8c4acc33
+      internalID: 62681822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_31
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb88e34aa84cc1645a910979bf1be6d2
+      internalID: 1412305851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_32
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 472
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac272454aca5d409e37d59d4e4aae7
+      internalID: 1664116439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_33
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 480
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ccc903af298a14a9a63e2cfaf0fc5f
+      internalID: 1746167953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_34
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8641b1fe819454b4fb3a45885cc501ac
+      internalID: 497676966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOUL RELEASE - SPRITE SHEET_35
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 128
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba549caef0d6e46856236b055d416a
+      internalID: 714238755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SOUL RELEASE - SPRITE SHEET_0: 1582674602
+      SOUL RELEASE - SPRITE SHEET_1: -85903891
+      SOUL RELEASE - SPRITE SHEET_10: -2111550399
+      SOUL RELEASE - SPRITE SHEET_11: -329441142
+      SOUL RELEASE - SPRITE SHEET_12: -831351523
+      SOUL RELEASE - SPRITE SHEET_13: -1851146158
+      SOUL RELEASE - SPRITE SHEET_14: -915619235
+      SOUL RELEASE - SPRITE SHEET_15: 1799354603
+      SOUL RELEASE - SPRITE SHEET_16: -1974343843
+      SOUL RELEASE - SPRITE SHEET_17: 1664280112
+      SOUL RELEASE - SPRITE SHEET_18: -1274286459
+      SOUL RELEASE - SPRITE SHEET_19: 1187154305
+      SOUL RELEASE - SPRITE SHEET_2: -723676000
+      SOUL RELEASE - SPRITE SHEET_20: -1637394725
+      SOUL RELEASE - SPRITE SHEET_21: 427547219
+      SOUL RELEASE - SPRITE SHEET_22: 2137923723
+      SOUL RELEASE - SPRITE SHEET_23: -504156806
+      SOUL RELEASE - SPRITE SHEET_24: -2080782139
+      SOUL RELEASE - SPRITE SHEET_25: 717718954
+      SOUL RELEASE - SPRITE SHEET_26: -2039466423
+      SOUL RELEASE - SPRITE SHEET_27: -1496447953
+      SOUL RELEASE - SPRITE SHEET_28: 2097416894
+      SOUL RELEASE - SPRITE SHEET_29: 1786183891
+      SOUL RELEASE - SPRITE SHEET_3: -1417104956
+      SOUL RELEASE - SPRITE SHEET_30: 62681822
+      SOUL RELEASE - SPRITE SHEET_31: 1412305851
+      SOUL RELEASE - SPRITE SHEET_32: 1664116439
+      SOUL RELEASE - SPRITE SHEET_33: 1746167953
+      SOUL RELEASE - SPRITE SHEET_34: 497676966
+      SOUL RELEASE - SPRITE SHEET_35: 714238755
+      SOUL RELEASE - SPRITE SHEET_4: -1536229747
+      SOUL RELEASE - SPRITE SHEET_5: 2096485604
+      SOUL RELEASE - SPRITE SHEET_6: 737524982
+      SOUL RELEASE - SPRITE SHEET_7: -1867212807
+      SOUL RELEASE - SPRITE SHEET_8: -1328550934
+      SOUL RELEASE - SPRITE SHEET_9: 426717259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
