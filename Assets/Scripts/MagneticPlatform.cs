@@ -1,11 +1,15 @@
 using UnityEngine;
-using System.Collections; // Required for Coroutines
+using System.Collections;
 
 public class MagneticPlatform : MonoBehaviour
 {
     [Header("Magnet Settings")]
     public float pullSpeed = 10f;
     public Vector2 hoverOffset = new Vector2(0f, -1.5f);
+
+    [Header("Movement Bounds")]
+    [Tooltip("The platform will not be allowed to leave this area.")]
+    public Collider2D barrierArea;
 
     [Header("Return Settings")]
     public float shakeDuration = 0.5f;
@@ -14,29 +18,51 @@ public class MagneticPlatform : MonoBehaviour
     private bool isMagnetized = false;
     private Transform soulTransform;
 
-    // Memory variables
     private Vector2 originalPosition;
     private Vector2 targetPosition;
     private Coroutine returnCoroutine;
 
     void Start()
     {
-        // Remember exactly where we started so we can return here later
         originalPosition = transform.position;
         targetPosition = originalPosition;
+
+        // AUTO-LINK: If you forgot to assign the barrier in the Inspector, 
+        // the platform will search for a Barrier touching it when the game starts!
+        if (barrierArea == null)
+        {
+            Collider2D[] colliders = Physics2D.OverlapPointAll(transform.position);
+            foreach (Collider2D col in colliders)
+            {
+                if (col.CompareTag("Barrier"))
+                {
+                    barrierArea = col;
+                    break;
+                }
+            }
+        }
     }
 
     void Update()
     {
         if (isMagnetized && soulTransform != null)
         {
-            // 1. If the soul is holding us, smoothly fly to the soul
-            Vector2 targetPos = (Vector2)soulTransform.position + hoverOffset;
-            transform.position = Vector2.MoveTowards(transform.position, targetPos, pullSpeed * Time.deltaTime);
+            // 1. Where does the platform WANT to go?
+            Vector2 desiredPos = (Vector2)soulTransform.position + hoverOffset;
+
+            // 2. Is it allowed to go there? 
+            if (barrierArea != null)
+            {
+                // This magic Unity function forces the coordinates to stay completely inside the Barrier
+                desiredPos = barrierArea.ClosestPoint(desiredPos);
+            }
+
+            // 3. Move smoothly to the restricted position
+            transform.position = Vector2.MoveTowards(transform.position, desiredPos, pullSpeed * Time.deltaTime);
         }
         else
         {
-            // 2. If the soul dropped us, smoothly slide to our target position (either holding still, or going home)
+            // Move back to starting position or stay frozen
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, pullSpeed * Time.deltaTime);
         }
     }
@@ -45,7 +71,6 @@ public class MagneticPlatform : MonoBehaviour
 
     public void MagnetizeTo(Transform soul)
     {
-        // If we were in the middle of dropping/shaking, stop!
         if (returnCoroutine != null)
         {
             StopCoroutine(returnCoroutine);
@@ -61,19 +86,14 @@ public class MagneticPlatform : MonoBehaviour
         isMagnetized = false;
         soulTransform = null;
 
-        // Lock our current position as the target so we freeze in mid-air temporarily
         targetPosition = transform.position;
-
-        // Start the 3-second timer and shake sequence
         returnCoroutine = StartCoroutine(ReturnRoutine());
     }
 
     private IEnumerator ReturnRoutine()
     {
-        // 1. Wait for 3 seconds in mid-air so the player has time to cross
         yield return new WaitForSeconds(3f);
 
-        // 2. The Shake!
         float elapsed = 0f;
         Vector2 currentPos = transform.position;
 
@@ -89,8 +109,6 @@ public class MagneticPlatform : MonoBehaviour
         }
 
         transform.position = currentPos;
-
-        // 3. Set the target back to home so the Update() function slides us back
         targetPosition = originalPosition;
         returnCoroutine = null;
     }
@@ -99,7 +117,6 @@ public class MagneticPlatform : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // If the player lands on us, make the player a "Child" of this platform
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.SetParent(this.transform);
@@ -108,7 +125,6 @@ public class MagneticPlatform : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        // If the player walks or jumps off, un-parent them so they are free again
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.SetParent(null);
