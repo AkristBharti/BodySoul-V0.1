@@ -21,6 +21,8 @@ public class SoulController : MonoBehaviour
     private player playerMovementScript;
     private Rigidbody2D playerRb;
     private Animator playerAnimator;
+    private Animator soulAnimator;
+    private SpriteRenderer soulSprite;
 
     private bool isDetached = false;
     private bool isReturning = false;
@@ -40,6 +42,9 @@ public class SoulController : MonoBehaviour
         playerMovementScript = player.GetComponent<player>();
         playerRb = player.GetComponent<Rigidbody2D>();
         playerAnimator = player.GetComponentInChildren<Animator>();
+        soulAnimator = GetComponentInChildren<Animator>();
+        soulSprite = GetComponentInChildren<SpriteRenderer>();
+        ShowSoul(false);
     }
 
     void Update()
@@ -77,16 +82,27 @@ public class SoulController : MonoBehaviour
             float moveX = Input.GetAxisRaw("Horizontal");
             float moveY = Input.GetAxisRaw("Vertical");
             soulRb.velocity = new Vector2(moveX, moveY).normalized * floatSpeed;
+
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetBool("isSoulMoving", soulRb.velocity.magnitude > 0.1f);
+            }
         }
         else if (isReturning)
         {
             soulRb.velocity = Vector2.zero;
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetBool("isSoulMoving", false);
+            }
+
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, returnSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, player.transform.position) < 0.05f)
             {
                 isReturning = false;
                 transform.position = player.transform.position;
+                ShowSoul(false);
                 playerMovementScript.enabled = true;
 
                 if (playerAnimator != null)
@@ -104,6 +120,11 @@ public class SoulController : MonoBehaviour
         else
         {
             soulRb.velocity = Vector2.zero;
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetBool("isSoulMoving", false);
+            }
+
             transform.position = player.transform.position;
         }
     }
@@ -116,6 +137,12 @@ public class SoulController : MonoBehaviour
             popOutTarget = new Vector2(player.transform.position.x, player.transform.position.y) + popOutOffset;
             playerMovementScript.enabled = false;
             playerRb.velocity = Vector2.zero;
+            ShowSoul(true);
+
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetTrigger("soulRelease");
+            }
 
             if (playerAnimator != null)
             {
@@ -133,12 +160,20 @@ public class SoulController : MonoBehaviour
 
             isDetached = false;
             isReturning = true;
+
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetBool("isSoulMoving", false);
+                soulAnimator.SetTrigger("soulReturn");
+            }
         }
     }
 
     void UseLiftAbility()
     {
         Collider2D[] nearbyObjects = Physics2D.OverlapCircleAll(transform.position, abilityRadius);
+        bool usedPower = false;
+
         foreach (Collider2D obj in nearbyObjects)
         {
             if (obj.CompareTag("Bridge"))
@@ -148,6 +183,7 @@ public class SoulController : MonoBehaviour
                 {
                     groundScript.LiftGround();
                     liftedBlocks.Add(groundScript);
+                    usedPower = true;
                 }
             }
 
@@ -158,8 +194,14 @@ public class SoulController : MonoBehaviour
                 {
                     boxScript.MoveBox();
                     movedBoxes.Add(boxScript);
+                    usedPower = true;
                 }
             }
+        }
+
+        if (usedPower && soulAnimator != null)
+        {
+            soulAnimator.SetTrigger("soulPull");
         }
     }
 
@@ -171,6 +213,10 @@ public class SoulController : MonoBehaviour
         {
             currentlyHeldPlatform.Drop();
             currentlyHeldPlatform = null;
+            if (soulAnimator != null)
+            {
+                soulAnimator.SetTrigger("soulPull");
+            }
             return; // Stop the function here so we don't accidentally pick it right back up
         }
 
@@ -187,9 +233,21 @@ public class SoulController : MonoBehaviour
                     // Grab the first one we find and break out of the loop
                     currentlyHeldPlatform = platformScript;
                     platformScript.MagnetizeTo(this.transform);
+                    if (soulAnimator != null)
+                    {
+                        soulAnimator.SetTrigger("soulPull");
+                    }
                     break;
                 }
             }
+        }
+    }
+
+    void ShowSoul(bool show)
+    {
+        if (soulSprite != null)
+        {
+            soulSprite.enabled = show;
         }
     }
 
