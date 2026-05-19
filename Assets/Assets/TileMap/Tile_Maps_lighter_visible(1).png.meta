@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 306
-        width: 51
-        height: 51
+        y: 238
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_1
       rect:
         serializedVersion: 2
-        x: 51
-        y: 306
-        width: 51
-        height: 51
+        x: 119
+        y: 238
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +142,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_2
       rect:
         serializedVersion: 2
-        x: 102
-        y: 306
-        width: 51
-        height: 51
+        x: 238
+        y: 238
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +163,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_3
       rect:
         serializedVersion: 2
-        x: 153
-        y: 306
-        width: 51
-        height: 51
+        x: 0
+        y: 119
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_4
       rect:
         serializedVersion: 2
-        x: 204
-        y: 306
-        width: 51
-        height: 51
+        x: 119
+        y: 119
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 306
-        width: 51
-        height: 51
+        x: 238
+        y: 119
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_6
       rect:
         serializedVersion: 2
-        x: 306
-        y: 306
-        width: 51
-        height: 51
+        x: 0
+        y: 0
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255
-        width: 51
-        height: 51
+        x: 119
+        y: 0
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: Tile_Maps_lighter_visible(1)_8
       rect:
         serializedVersion: 2
-        x: 51
-        y: 255
-        width: 51
-        height: 51
+        x: 238
+        y: 0
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,846 +281,6 @@ TextureImporter:
       bones: []
       spriteID: 7d23baf4eeae95f4d8f5c39b12313fb3
       internalID: 1047005053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_9
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 255
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6485bd22ad3b19549aa19fafae04931d
-      internalID: -2047034781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_10
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 255
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82e7d6c352fc4cc479128f5698745670
-      internalID: 1878680911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_11
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 255
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee224fa78f6bd9c4b9e829ffa009a6fb
-      internalID: -1413579101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_12
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 255
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b049d5ea36be704b9a90a55e74ac7bb
-      internalID: -456533250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_13
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 255
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 420f80a1a26b706478fb202ee16b36c9
-      internalID: 1068952947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bb12c8601462274dbca3e522bb7cbe4
-      internalID: 585850376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_15
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9477f87a93088142942d08a3504694f
-      internalID: 556703208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_16
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abd9bbbc49036034c8c37d5e1884903c
-      internalID: 323452219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_17
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a9df740473f6f044b6452b9d6eb25e8
-      internalID: -465494411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_18
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 086dbb128e3ca6d4c905aaf6d3c907ae
-      internalID: 1824422137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_19
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc2bffdd4b018de469ff2d5696a50a6e
-      internalID: 1806584656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_20
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 204
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3d021282e757734993f2ace58df5f22
-      internalID: 2122493547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8b537cd77fd2704dbf351dd758e9145
-      internalID: 215597672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_22
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 879112df7e4befc47aaf644338cdc901
-      internalID: -1473399737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_23
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08b388d426d7ce74499d4e32b0cb649f
-      internalID: -1628526563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_24
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eba984ffa0a23746a94aed3de1d4af6
-      internalID: -848307991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_25
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 906d12ba069aa9649bc1644061e9bef8
-      internalID: -1922587746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_26
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f4ce8439078be4aab85ff04d7e4e87
-      internalID: -1550174431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_27
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 153
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0153cf32464cc08498c39ce522b49ab1
-      internalID: 596284267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_28
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1799299579de6c245a9c201069b664ed
-      internalID: 2098438221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_29
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ece8640226c757547ac45705ecae60f5
-      internalID: 1953537545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_30
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82f75aa3226453a4f995f625982a2361
-      internalID: -694512496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_31
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0ad33415772f9408b5d77279588760
-      internalID: -1348454669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_32
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3834a912ad0da6048979dd4a913ab0cc
-      internalID: 470687572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_33
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd58dc1f16dd79e4cb88ad8f0ab157e1
-      internalID: -429764046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_34
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 102
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45aa3917d0cc0ed40835397e05e132bf
-      internalID: -783391519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_35
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbafacda22298054a9e6fab81de36dda
-      internalID: 740019786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_36
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87837f7aa8f4d624595114829eb04b44
-      internalID: 147376794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_37
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9adef7044d31dd44aac48832f7df2872
-      internalID: 1936291908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_38
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52e7e5363e2c70e4691e3577547ba5ec
-      internalID: 415149785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_39
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fc799f582d2bee4fa25ebd1dcf5b58d
-      internalID: -1877738389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_40
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d225e16c4de2c8242894e611b5511096
-      internalID: -1814184988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_41
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 51
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2db68eaa1c016dd4c8fd8400fdb2eb5c
-      internalID: -1284690856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_42
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab0c713d5f8aa194c829f770da21cc85
-      internalID: 147173062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_43
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 008ebdf8ec65b594cb23c89f686a555c
-      internalID: -1378524476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_44
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90ed3b50e4fe8774a9d8ce50ba9a39a7
-      internalID: 1483379978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_45
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfcd16a54b7c86d4d9698cb04cb0fe3e
-      internalID: -2041509586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_46
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b38b72b700d34f54c89c6d343276520c
-      internalID: -1834959664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_47
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 115d75ab11b84764fbefb04960a30c8c
-      internalID: -1404407167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Maps_lighter_visible(1)_48
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 0
-        width: 51
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a3a0c00abd43d74baee604be9fb4f90
-      internalID: -2076042058
       vertices: []
       indices: 
       edges: []
@@ -1138,53 +298,13 @@ TextureImporter:
     nameFileIdTable:
       Tile_Maps_lighter_visible(1)_0: 472944348
       Tile_Maps_lighter_visible(1)_1: -14939974
-      Tile_Maps_lighter_visible(1)_10: 1878680911
-      Tile_Maps_lighter_visible(1)_11: -1413579101
-      Tile_Maps_lighter_visible(1)_12: -456533250
-      Tile_Maps_lighter_visible(1)_13: 1068952947
-      Tile_Maps_lighter_visible(1)_14: 585850376
-      Tile_Maps_lighter_visible(1)_15: 556703208
-      Tile_Maps_lighter_visible(1)_16: 323452219
-      Tile_Maps_lighter_visible(1)_17: -465494411
-      Tile_Maps_lighter_visible(1)_18: 1824422137
-      Tile_Maps_lighter_visible(1)_19: 1806584656
       Tile_Maps_lighter_visible(1)_2: 120383231
-      Tile_Maps_lighter_visible(1)_20: 2122493547
-      Tile_Maps_lighter_visible(1)_21: 215597672
-      Tile_Maps_lighter_visible(1)_22: -1473399737
-      Tile_Maps_lighter_visible(1)_23: -1628526563
-      Tile_Maps_lighter_visible(1)_24: -848307991
-      Tile_Maps_lighter_visible(1)_25: -1922587746
-      Tile_Maps_lighter_visible(1)_26: -1550174431
-      Tile_Maps_lighter_visible(1)_27: 596284267
-      Tile_Maps_lighter_visible(1)_28: 2098438221
-      Tile_Maps_lighter_visible(1)_29: 1953537545
       Tile_Maps_lighter_visible(1)_3: 2035277849
-      Tile_Maps_lighter_visible(1)_30: -694512496
-      Tile_Maps_lighter_visible(1)_31: -1348454669
-      Tile_Maps_lighter_visible(1)_32: 470687572
-      Tile_Maps_lighter_visible(1)_33: -429764046
-      Tile_Maps_lighter_visible(1)_34: -783391519
-      Tile_Maps_lighter_visible(1)_35: 740019786
-      Tile_Maps_lighter_visible(1)_36: 147376794
-      Tile_Maps_lighter_visible(1)_37: 1936291908
-      Tile_Maps_lighter_visible(1)_38: 415149785
-      Tile_Maps_lighter_visible(1)_39: -1877738389
       Tile_Maps_lighter_visible(1)_4: 1853965397
-      Tile_Maps_lighter_visible(1)_40: -1814184988
-      Tile_Maps_lighter_visible(1)_41: -1284690856
-      Tile_Maps_lighter_visible(1)_42: 147173062
-      Tile_Maps_lighter_visible(1)_43: -1378524476
-      Tile_Maps_lighter_visible(1)_44: 1483379978
-      Tile_Maps_lighter_visible(1)_45: -2041509586
-      Tile_Maps_lighter_visible(1)_46: -1834959664
-      Tile_Maps_lighter_visible(1)_47: -1404407167
-      Tile_Maps_lighter_visible(1)_48: -2076042058
       Tile_Maps_lighter_visible(1)_5: -265940222
       Tile_Maps_lighter_visible(1)_6: -500765936
       Tile_Maps_lighter_visible(1)_7: 317463790
       Tile_Maps_lighter_visible(1)_8: 1047005053
-      Tile_Maps_lighter_visible(1)_9: -2047034781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
